@@ -2,28 +2,27 @@
 import React from 'react'
 import { motion } from "framer-motion";
 
-
 const About = () => {
   return (
     <section className="bg-gradient-to-r from-cyan-200 to-blue-200 text-gray-600 body-font ">
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col justify-center items-center">
 
-      <motion.div whileHover={{ scale: [null, 1, 1.02] }}
+        <motion.div whileHover={{ scale: [null, 1, 1.02] }}
           transition={{ duration: 0.4 }} className=" flex flex-col rounded-2xl lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
           <div className='flex justify-center'>
-            <img className="hover:shadow-2xl  min-sm:h-[100px] object-contain rounded h-[100px] p-3 bg-contain sm:h-[100px]" src='React.png' />
-            <img className="hover:shadow-2xl  min-sm:h-[100px] object-contain rounded h-[100px] p-3 bg-contain sm:h-[100px]" src='tailwind.png' />
-            <img className="hover:shadow-2xl  min-sm:h-[100px] object-contain rounded h-[100px] p-3 bg-contain sm:h-[100px]" src='javascript.png' />
+            <img className="hover:shadow-2xl  max-sm:h-[100px] object-contain rounded h-[100px] p-3 bg-contain sm:h-[100px]" src='images/React.png' />
+            <img className="hover:shadow-2xl  max-sm:h-[100px] object-contain rounded h-[100px] p-3 bg-contain sm:h-[100px]" src='images/tailwind.png' />
+            <img className="hover:shadow-2xl  max-sm:h-[100px] object-contain rounded h-[100px] p-3 bg-contain sm:h-[100px]" src='images/javascript.png' />
           </div> 
           <div className='flex justify-center'>
-            <img className="hover:shadow-2xl  min-sm:h-[100px] object-contain rounded h-[100px] p-3 bg-contain sm:h-[100px]" src='html.png' />
-            <img className="hover:shadow-2xl  min-sm:h-[100px] object-contain rounded h-[100px] p-3 bg-contain sm:h-[100px]" src='css.png' />
-            <img className="hover:shadow-2xl  min-sm:h-[100px] object-contain rounded h-[100px] p-3 bg-contain sm:h-[100px]" src='nodejs.png' />
+            <img className="hover:shadow-2xl  max-sm:h-[100px] object-contain rounded h-[100px] p-3 bg-contain sm:h-[100px]" src='images/html.png' />
+            <img className="hover:shadow-2xl  max-sm:h-[100px] object-contain rounded h-[100px] p-3 bg-contain sm:h-[100px]" src='images/css.png' />
+            <img className="hover:shadow-2xl  max-sm:h-[100px] object-contain rounded h-[100px] p-3 bg-contain sm:h-[100px]" src='images/nodejs.png' />
           </div>
           <div className='flex justify-center'>
-            <img className="hover:shadow-2xl  min-sm:h-[100px] object-contain rounded h-[100px] p-3 bg-contain sm:h-[100px]" src='github.png' />
-            <img className="hover:shadow-2xl  min-sm:h-[100px] object-contain rounded h-[100px] p-3 bg-contain sm:h-[100px]" src='vscode.png' />
-            <img className="hover:shadow-2xl  min-sm:h-[100px] object-contain rounded h-[100px] p-3 bg-contain sm:h-[100px]" src='LeetCode.png' />
+            <img className="hover:shadow-2xl  max-sm:h-[100px] object-contain rounded h-[100px] p-3 bg-contain sm:h-[100px]" src='images/github.png' />
+            <img className="hover:shadow-2xl  max-sm:h-[100px] object-contain rounded h-[100px] p-3 bg-contain sm:h-[100px]" src='images/vscode.png' />
+            <img className="hover:shadow-2xl  max-sm:h-[100px] object-contain rounded h-[100px] p-3 bg-contain sm:h-[100px]" src='images/LeetCode.png' />
           </div>
         </motion.div>
         <motion.div whileHover={{ scale: [null, 1, 1.02] }}
