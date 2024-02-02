@@ -2,10 +2,13 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect';
 import { motion } from 'framer-motion'
+import Header from '../header/page';
 
 
 const Front = () => {
     return (
+        <>
+      
         <section className='grid gap-20 grid-cols-2 mt-9 overflow-hidden min-md:left-20 pb-4 mb-10 h-full  w-full'>
             <div className='relative left-[30%] max-xl:left-[30%] flex flex-col   mb-4'>
                 <h1 className='drop-shadow-2xl Rohit max-sm:text-4xl text-6xl font-bold text-slate-700 mt-16'>Hii</h1>
@@ -26,15 +29,16 @@ const Front = () => {
                 </pre>
 
                 <div class="flex mt-10 ">
-                    <motion.button whileHover={{ scale: [null, 1, 1.22] }}
-                        transition={{ duration: 0.3 }} class="  font-bold inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg" >Github</motion.button>
+                    <motion.a whileHover={{ scale: [null, 1, 1.03] }}
+                     href='https://github.com/RohitMeshram45'   transition={{ duration: 0.2 }} class="  font-bold inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg" >Github</motion.a>
                 </div>
             </div>
            <div whileHover={{ scale: [null, 1, 1.02] }}
            transition={{ duration: 0.4 }} className='flex justify-center items-center'>
-            <img  className="hover:bg-slate-100 flex max-sm:hidden hover:shadow-2xl  max-sm:h-[340px] object-cover   rounded h-[340px] p-3 bg-contain sm:h-[340px]" src='man1.jpeg' />
+            <img  className="hover:bg-slate-100 flex max-sm:hidden hover:shadow-2xl  max-sm:h-[340px] object-cover   rounded h-[340px] p-3 bg-contain sm:h-[340px]" src='images/man1.jpeg' />
             </div>
         </section>
+        </>
     )
 }
 
